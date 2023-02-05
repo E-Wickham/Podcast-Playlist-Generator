@@ -6,7 +6,7 @@ Theres a few things that need to be addressed with this source code.
 
 1. Get requests
 
-The code (as it stands) was a makeshift solution for me to avoid having to do any serverside coding. It's using a reverse proxy to avoid cors, but it's making all the requests to the rss feeds of the podcasts inside the DOM. This probably needs to change to either a node or php file making the requests and creating the playlists.
+The code (as it stands) was a makeshift solution for me to avoid having to do any serverside coding. It's using a reverse proxy to avoid cors, but it's making all the requests to the rss feeds of the podcasts inside the DOM. This is causing the playlist to be created and loaded into the player before all the rss feeds can be added to the playlist. I'm considering redoing this in php to avoid this issue while also avoiding the creation of a node server.
 
 2. Eligible podcasts
 
