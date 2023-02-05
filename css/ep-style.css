@@ -1,0 +1,262 @@
+body {
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    margin: 0;
+
+    
+}
+
+#page-container{
+    width: 100%;
+    background-color: #fafafa;
+}
+
+#header {
+
+    height: 60px;
+    width: 100%;
+    margin: 0%;
+    display: block;
+    top: 0px;
+    color: white;
+    margin-top: 0%;
+}
+
+#header>a {
+    
+    
+    margin-left: 10px;
+    position:relative;
+    top: 15px;
+
+
+}
+
+/*INDEX*/
+
+#index-title{
+    position: relative;
+    top: 160px;
+    text-align: center;
+}
+
+.episodes {
+    position: relative;
+
+    top: 200px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.episode-index {
+    padding: 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 10px;;
+    transition: 0.3s;
+
+}
+
+.episode-index>a{
+    color: black;
+}
+
+.episode-index:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+
+}
+.open-ep {
+    padding: 8px;
+    border: 3px solid #b81b1b;
+    border-radius: 5px;
+    text-decoration:none;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    background-color: white;
+    color:#b81b1b;
+    font-family: Montserrat;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b81b1b;
+    color: white;
+    transition: 0.3s;
+}
+
+/* EPISODE  */
+
+
+
+
+#ep-container{
+    display:block;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top: 50px;
+}
+
+#episode-title {
+    margin-left: 0;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* TWITTER WRAPPER */ 
+
+#twitter-section {
+    position: relative;
+    top: 100px;
+}
+
+
+#tweet-box {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+body {
+    font-family: Montserrat;
+}
+
+.tweet-info{
+    text-align: center;
+}
+
+.tweet-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+.tweet-wrapper {
+    background-color: #b81b1b;
+    color: white;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    transition: 0.3s;
+}
+
+.tweet-wrapper:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.tw-thumbnail{
+    width: min-content;
+    margin-right: 20px;
+}
+
+.tw-tweet{
+    position: relative;
+    bottom: 10px;
+}
+
+.tw-content > a {
+    color: lightblue !important;
+}
+
+.tw-content{
+    font-size: 0.8em;
+}
+
+div.tw-tweet > a {
+    color: lightblue;
+}
+
+
+
+
+
+/* MAKESHIFT NAVBAR */
+
+#mainNav {
+    background-color: black;
+}
+
+
+
+.icon-div{
+    display: grid;
+    grid-template-areas:   '. . .'
+                           '. . .';
+    justify-content: center;
+}
+
+
+.icon-show-link {
+    color: white;
+    background-color: #b81b1b;
+    border-radius: 3px;
+    border: 2px solid #b81b1b;
+    padding: 10px;
+    transition: 0.3s;
+    margin: 5px 10px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+.icon-show-link-btm {
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 3px;
+    border: 2px solid #fafafa;
+    padding: 10px;
+    transition: 0.3s;
+    text-align: center;
+    width: 340px;
+    position: fixed;
+    bottom: 150px;
+}
+
+.icon-show-link:hover, .icon-show-link-btm:hover{
+    background-color: #000;
+    color: #fafafa;
+    border: 2px solid #000;
+}
+
+/*episode adds*/
+
+#ShowNotes{
+    margin-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 600px){
+
+    #episode-title{
+        bottom: 250px;
+    }
+}
+
